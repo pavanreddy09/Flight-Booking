@@ -1,0 +1,13 @@
+.add-flight-commponent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flight-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 600px;
+}

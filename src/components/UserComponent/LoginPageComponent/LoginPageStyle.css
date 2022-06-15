@@ -1,0 +1,28 @@
+.login-page-container {
+    height: 100vh;
+    background: url('../../../assets/LoginPageImg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-page {
+    height: 100vh;
+    background-image: linear-gradient(to left, white, rgba(187, 187, 187, 0.482));
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+}
+
+.login-page-form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 30px;
+    width: 600px;
+    margin-right: 80px;
+}
+
+.login-page-form p {
+    margin-top: 5px;
+}

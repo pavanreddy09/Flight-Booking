@@ -1,0 +1,26 @@
+
+.flights-list {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow-y:scroll;
+}
+
+.flights {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid black; 
+
+}
+
+.date-select {
+    display: flex;
+    padding: 10px;
+}
+
+.date-select h3 {
+    margin-top: 12px;
+}
