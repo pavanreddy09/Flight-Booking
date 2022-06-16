@@ -84,7 +84,7 @@ const RegisterPage = () => {
             }
             setIsLoading(false);
         }else{
-            console.log("not");
+            alert("confirmation password does not matched to password");
         }
     }
 
